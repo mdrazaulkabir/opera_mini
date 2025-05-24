@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:opera_mini/defalut/small_container.dart';
 
 class opera extends StatefulWidget {
   const opera({super.key});
@@ -40,9 +41,12 @@ class _operaState extends State<opera> {
                   suffixIcon: IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.settings_voice_rounded))),
-            )
+            ),
 
             //gridView some container
+
+            SizedBox( height: 20,),
+            smallContainer(text: "facebook"),
             //row
             //column
             //big container
